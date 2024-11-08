@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Imagen del logo de la tienda -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo de la tienda" />
+
+    <!-- Descripción de la tienda -->
+    <TextView
+        android:id="@+id/storeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenidos a nuestra tienda. Aquí encontrarás lo mejor en moda y estilo."
+        android:textAlignment="center"
+        android:padding="16dp" />
+
+    <!-- Video promocional -->
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón de Página oficial -->
+    <Button
+        android:id="@+id/button_official_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Página oficial"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

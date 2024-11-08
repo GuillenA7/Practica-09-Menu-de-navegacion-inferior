@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_nosotros"
+        android:icon="@drawable/ic_nosotros"
+        android:title="Nosotros" />
+    <item
+        android:id="@+id/nav_galeria"
+        android:icon="@drawable/ic_galeria"
+        android:title="Galería" />
+    <item
+        android:id="@+id/nav_credito"
+        android:icon="@drawable/ic_credito"
+        android:title="Crédito" />
+</menu>
